@@ -1,0 +1,6 @@
+int lateRide(int n)
+{
+    int HH = n / 60;
+    int MM = n % 60;
+    return HH / 10 + HH % 10 + MM / 10 + MM % 10;
+}
