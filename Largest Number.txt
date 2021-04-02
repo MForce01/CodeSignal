@@ -1,0 +1,13 @@
+static void Main(string[] args)
+{
+     Console.WriteLine(largestNumber(3));
+}
+static int largestNumber(int n)
+{
+     int x = 1;
+     for (int i = 0; i < n; i++)
+     {
+         x *= 10;
+     }
+     return x - 1;
+}
