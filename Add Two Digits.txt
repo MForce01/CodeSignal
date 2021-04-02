@@ -1,8 +1,4 @@
-static int addTwoDigits(int n) 
+int addTwoDigits(int n) 
 {
     return (n / 10) + (n % 10);
-}
-static void Main(string[] args)
-{
-    Console.WriteLine(addTwoDigits(27)); // 9
 }
